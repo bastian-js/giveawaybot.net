@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --modal-duration: 1s;
@@ -42,17 +42,15 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 section:nth-child(1) {
   color: #fff;
-  background: #1D212B;
-
+  background: #1d212b;
 }
 
 section:nth-child(2) {
-  color: #1D212B;
+  color: #1d212b;
   background-image: url(assets/bgIMG.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,27 +58,24 @@ section:nth-child(2) {
 
 section:nth-child(3) {
   color: #fff;
-  background: #1D212B;
+  background: #1d212b;
 }
 
 section:nth-child(4) {
-  color: #1D212B;
+  color: #1d212b;
   background-image: url(assets/bgIMG.png);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 section:nth-child(5) {
   color: #eceef6;
-  background: #1D212B;
+  background: #1d212b;
 }
 
 section .container {
   margin: 100px;
 }
-
-
 
 section h1 {
   font-size: 60px;
@@ -95,15 +90,13 @@ section h2 {
   margin: auto;
 }
 
-
-
 section .cards {
   width: 100%;
   position: relative;
 }
 
 section .cards .text-card {
-  background: #17181E;
+  background: #17181e;
   margin: 20px;
   padding: 20px;
 }
@@ -131,7 +124,6 @@ section .cards .text-card h3 {
   width: 100%;
   z-index: 100000;
 }
-
 
 .reveal {
   position: relative;
@@ -162,8 +154,7 @@ a:active {
 }
 
 .menu {
-  background-color: #1D212B;
-
+  background-color: #1d212b;
 }
 
 nav .menu {
@@ -178,7 +169,6 @@ nav .menu {
   z-index: 3;
   text-decoration: none;
 }
-
 
 nav .menu .menu_links {
   transition: all 0.4s ease;
@@ -272,7 +262,7 @@ nav .menu .menu_icon .icon:after {
 }
 
 nav .menu .menu_icon:hover .icon {
-  background: #FFEDC0;
+  background: #ffedc0;
 }
 
 nav .menu .menu_icon:hover .icon:before {
@@ -282,8 +272,6 @@ nav .menu .menu_icon:hover .icon:before {
 nav .menu .menu_icon:hover .icon:after {
   transform: translateY(10px);
 }
-
-
 
 .frame {
   position: absolute;
@@ -311,14 +299,19 @@ nav .menu .menu_icon:hover .icon:after {
   margin-left: 700px;
 }
 
-
 .fram_header {
   color: #ffffff;
   position: absolute;
-  top: 200px;
-  left: 300px;
+  top: 50px;
+  left: 150px;
 }
 
+.fram_header2 {
+  color: #ffffff;
+  position: absolute;
+  top: 250px;
+  left: 150px;
+}
 
 .paragraph {
   color: rgb(212, 212, 212);
@@ -329,8 +322,6 @@ nav .menu .menu_icon:hover .icon:after {
   margin-top: 20px;
   margin-left: -100px;
 }
-
-
 
 .button {
   position: relative;
@@ -344,7 +335,6 @@ nav .menu .menu_icon:hover .icon:after {
   padding: 0;
   font-size: inherit;
   font-family: inherit;
-
 }
 
 .button.learn-more {
@@ -359,9 +349,8 @@ nav .menu .menu_icon:hover .icon:after {
   margin-left: -15px;
   width: 3rem;
   height: 3rem;
-  background: #EDF2F8;
+  background: #edf2f8;
   border-radius: 1.625rem;
-
 }
 
 .button.learn-more .circle .icon {
@@ -413,7 +402,6 @@ nav .menu .menu_icon:hover .icon:after {
   transform: rotate(45deg);
 }
 
-
 .button.learn-more .button-text {
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
   position: absolute;
@@ -451,14 +439,10 @@ nav .menu .menu_icon:hover .icon:after {
   font-size: 13px;
 }
 
-
 .logo_holder img {
   margin-left: -50px;
   cursor: pointer;
 }
-
-
-
 
 .button_add {
   appearance: none;
@@ -482,7 +466,7 @@ nav .menu .menu_icon:hover .icon:after {
   text-align: center;
   text-decoration: none;
   transform: translate3d(0, 0, 0);
-  transition: all .3s;
+  transition: all 0.3s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -496,20 +480,21 @@ nav .menu .menu_icon:hover .icon:after {
 .button_add:hover {
   color: #e7e7e7;
   background-color: #262626;
-  box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, 0.5) 0 1px 4px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.5) 0 1px 4px;
   opacity: 1;
   transform: translateY(0);
-  transition-duration: .35s;
+  transition-duration: 0.35s;
 }
 
 .button_add:hover:after {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 .button_add:active {
-  box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px 0, rgba(0, 0, 0, 0.1) 0 0 10px 0,
+    rgba(0, 0, 0, 0.1) 0 1px 4px -1px;
   transform: translateY(2px);
-  transition-duration: .35s;
+  transition-duration: 0.35s;
 }
 
 .button_add:active:after {
@@ -523,8 +508,6 @@ nav .menu .menu_icon:hover .icon:after {
   }
 }
 
-
-
 .button_add:hover .fa-right-from-bracket,
 .button_add .fa-circle-plus {
   display: none;
@@ -534,25 +517,18 @@ nav .menu .menu_icon:hover .icon:after {
   display: inline;
 }
 
-.text-card img {
-  width: 500px;
-  height: 300px;
-}
-
 .text-card {
   text-align: center;
 }
 
 .frame {
-  background-color: #1D212B;
+  background-color: #1d212b;
 }
-
 
 .faq-section {
   background: #fdfdfd;
   min-height: 100vh;
   padding: 10vh 0 0;
-
 }
 
 .faq-title h2 {
@@ -561,7 +537,6 @@ nav .menu .menu_icon:hover .icon:after {
   display: inline-block;
   font-weight: 600;
   line-height: 1;
-
 }
 
 .faq-title h2::before {
@@ -580,7 +555,7 @@ nav .menu .menu_icon:hover .icon:after {
 }
 
 .faq {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
   border-radius: 4px;
 }
@@ -588,7 +563,7 @@ nav .menu .menu_icon:hover .icon:after {
 .faq .card {
   border: none;
   background: none;
-  border-bottom: 1px dashed #CEE1F8;
+  border-bottom: 1px dashed #cee1f8;
 }
 
 .faq .card .card-header {
@@ -615,7 +590,7 @@ nav .menu .menu_icon:hover .icon:after {
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 1px;
-  color: #3B566E;
+  color: #3b566e;
   text-decoration: none !important;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -648,10 +623,10 @@ nav .menu .menu_icon:hover .icon:after {
   padding-bottom: 16px;
   font-weight: 400;
   font-size: 16px;
-  color: #6F8BA4;
+  color: #6f8ba4;
   line-height: 28px;
   letter-spacing: 1px;
-  border-top: 1px solid #F3F8FF;
+  border-top: 1px solid #f3f8ff;
 }
 
 .faq .card .card-body p {
@@ -686,7 +661,7 @@ nav .menu .menu_icon:hover .icon:after {
   padding: 5px 40px;
 
   text-decoration: none;
-  transition: all .3s;
+  transition: all 0.3s;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -695,11 +670,9 @@ nav .menu .menu_icon:hover .icon:after {
   border-radius: 5px;
 }
 
-
 .mt {
   margin-top: 30px;
 }
-
 
 .footer-distributed {
   background: #272934;
@@ -728,7 +701,7 @@ nav .menu .menu_icon:hover .icon:after {
 
 .footer-distributed h3 {
   color: #ffffff;
-  font: normal 36px 'Open Sans', cursive;
+  font: normal 36px "Open Sans", cursive;
   margin: 0;
 }
 
@@ -801,7 +774,6 @@ nav .menu .menu_icon:hover .icon:after {
 .footer-distributed .footer-center p a {
   color: #d68164;
   text-decoration: none;
-  ;
 }
 
 .footer-distributed .footer-links a:before {
@@ -868,7 +840,6 @@ nav .menu .menu_icon:hover .icon:after {
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {
-
   .footer-distributed {
     font: bold 14px sans-serif;
   }
@@ -885,13 +856,11 @@ nav .menu .menu_icon:hover .icon:after {
   .footer-distributed .footer-center i {
     margin-left: 0;
   }
-
 }
 
 .copyright {
   font-weight: 100;
 }
-
 
 .modal {
   display: none;
@@ -929,7 +898,7 @@ nav .menu .menu_icon:hover .icon:after {
 .modal-body {
   color: #ffffff;
   padding: 10px 20px;
-  background: #1D212B;
+  background: #1d212b;
 }
 
 .modal-footer {
@@ -955,7 +924,6 @@ nav .menu .menu_icon:hover .icon:after {
   cursor: pointer;
 }
 
-
 .close_fun {
   color: #ccc;
   float: right;
@@ -969,8 +937,6 @@ nav .menu .menu_icon:hover .icon:after {
   text-decoration: none;
   cursor: pointer;
 }
-
-
 
 .close_user {
   color: #ccc;
@@ -986,7 +952,6 @@ nav .menu .menu_icon:hover .icon:after {
   cursor: pointer;
 }
 
-
 @keyframes modalopen {
   from {
     opacity: 0;
@@ -1000,10 +965,9 @@ nav .menu .menu_icon:hover .icon:after {
 .underline {
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #17181E;
+  background-color: #17181e;
   border-bottom: #d68164 1px solid;
   width: fit-content;
-
 }
 
 .mr {
