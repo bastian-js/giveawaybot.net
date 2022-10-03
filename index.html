@@ -8,269 +8,81 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="fontawestome/css/all.min.css">
 
+  <!-- Icon Script -->
+  <script
+          src="https://kit.fontawesome.com/e0ab8e764a.js"
+          crossorigin="anonymous"
+  ></script>
+
   <link rel="icon" href="./assets/gift3.png">
 </head>
 
 <body>
-  <nav class="navbar">
-    <div class="menu">
-      <div class="logo_holder" style="color: #f54248; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 25px;">
-        GIVEAWAY BOT
-      </div>
-      <div class="menu_links">
-        <a href="#home" class="link">HOME</a>
-        <a href="#features" class="link">Commands</a>
-        <a href="#faq" class="link">FAQ</a>
-        <a href="./de-de.html" class="link">German</a>
-        <a href="https://github.com/Bastian-Community/giveaway-bot" class="link">GitHub</a>
-      </div>
-      <div class="menu_icon">
-        <span class="icon"></span>
-      </div>
-    </div>
-  </nav>
 
-  <section id="home">
-    <div class="frame">
-      <div class="ball">
-        <img class="botimg" src="assets/bot.png" alt="Bot">
-        
-        <div class="fram_header">
-          <h1 style="color: #d68164;">UPDATE</h1>
-          <p class="paragraph">I updated our bot to discord.js v14 - with djs14 I can make the bot as good as possible. I now have more freedom to do things that weren't possible before. Please join my <a href="https://discord.gg/nTzWG2etMz" style="color: #d68164;">discord server</a> to give me feedback and report bugs etc...</p>
-        </div>
+  <div class="header">
+    <h1 class="h1-header">Giveaway Bot</h1>
+    <p class="p-header">The perfect open-source bot for hosting giveaways for your community.</p>
 
-        <div class="fram_header2">
-          <h1>Giveaway Bot</h1>
-          <p class="paragraph">Hello there! I'm a new open-source discord giveaway bot - you are looking for creating giveaways & make gifts for your members, than i am the best bot for your server.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="features">
-    <div class="container reveal">
-      <h2>Commands</h2>
-      <div class="cards">
-        <div class="text-card">
-          <h3>Start</h3>
-          <img src="./assets/cmdnew1.png" alt="">
-          <img src="./assets/cmdnew2.png" alt="" style="width: 471px;">
-          <p>Start giveaways with winners, length, prize</p>
-        </div>
-        <div class="text-card">
-          <h3>Pause/Unpause</h3>
-          <img src="./assets/cmdnew3.png" alt="">
-          <p>Easily pause & unpause a giveaway.</p>
-        </div>
-        <div class="text-card">
-          <h3>End/Delete</h3>
-          <img src="./assets/cmdnew4.png" alt="">
-          <p>End or delete your giveaway.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="faq" class="faq-section">
-    <div class="container">
-      <div class="row">
-        <!-- ***** FAQ Start ***** -->
-        <div class="col-md-6 offset-md-3">
-
-          <div class="faq-title text-center pb-3">
-            <h2>FAQ</h2>
-          </div>
-        </div>
-        <div class="col-md-6 offset-md-3">
-          <div class="faq" id="accordion">
-            <div class="card">
-              <div class="card-header" id="faqHeading-1">
-                <div class="mb-0">
-                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true"
-                    data-aria-controls="faqCollapse-1">
-                    <span class="badge">1</span>How do I add the bot?
-                  </h5>
-                </div>
-              </div>
-              <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
-                <div class="card-body">
-                  <p>You can add the english bot by clicking <a href="https://discord.com/api/oauth2/authorize?client_id=959150163807584348&permissions=142400&scope=bot%20applications.commands">here</a> & add the german bot by clicking <a href="https://discord.com/api/oauth2/authorize?client_id=1008715802079399958&permissions=8&scope=bot%20applications.commands">here</a></p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="faqHeading-2">
-                <div class="mb-0">
-                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false"
-                    data-aria-controls="faqCollapse-2">
-                    <span class="badge">2</span> Is the bot safe?
-                  </h5>
-                </div>
-              </div>
-              <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
-                <div class="card-body">
-                  <p>The bot is completely safe - the bot is open-source, so you can look at my code.</p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="faqHeading-3">
-                <div class="mb-0">
-                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false"
-                    data-aria-controls="faqCollapse-3">
-                    <span class="badge">3</span> Is the bot free?
-                  </h5>
-                </div>
-              </div>
-              <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
-                <div class="card-body">
-                  <p>The bot is completely free so everyone can use it.</p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="faqHeading-4">
-                <div class="mb-0">
-                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false"
-                    data-aria-controls="faqCollapse-4">
-                    <span class="badge">4</span> Can I make my own bot?
-                  </h5>
-                </div>
-              </div>
-              <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
-                <div class="card-body">
-                  <p>If you know how to code a bot, you can look up the source code & customize the bot for you.</p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="faqHeading-5">
-                <div class="mb-0">
-                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false"
-                    data-aria-controls="faqCollapse-5">
-                    <span class="badge">5</span> What languages are you supporting?
-                  </h5>
-                </div>
-              </div>
-              <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
-                <div class="card-body">
-                  <p>The bot supports english & german as languages. You can add the english-bot to your server. If you are a german-speaking-community, I made an extra bot where everything is in german.</p>
-                </div>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="faqHeading-6">
-                <div class="mb-0">
-                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false"
-                    data-aria-controls="faqCollapse-6">
-                    <span class="badge">6</span> Do you have a discord server?
-                  </h5>
-                </div>
-              </div>
-              <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
-                <div class="card-body">
-                  <p>Yes, I made a discord server where you can find support or communicate with the community.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!--
-            <div class="card">
-              <div class="card-header" id="faqHeading-7">
-                <div class="mb-0">
-                  <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7" data-aria-expanded="false"
-                    data-aria-controls="faqCollapse-7">
-                    <span class="badge">7</span> Why do we use it?
-                  </h5>
-                </div>
-              </div>
-              <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
-                <div class="card-body">
-                  <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model
-                    text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various
-                    versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour
-                    and the like).</p>
-                  -->
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  </section>
-
-
-
-  <footer class="footer-distributed">
-
-    <div class="footer-left" style="color: #f54248; font-size: 25px;">
-
-      GIVEAWAY BOT
-
-      <p class="footer-links">
-        <br>
-        <small class="copyright">Copyright © 2022 - Bastian </small>
+    <div class="addlinks">
+      <h3 class="addlinks-add">Add the bot now!</h3>
+      <p class="addlinks-links">
+        <a class="addlinks-link1" href="https://discord.com/oauth2/authorize?client_id=959150163807584348&permissions=142400&scope=bot%20applications.commands" title="Add the english bot">English |</a>
+        <a class="addlinks-link2" href="https://discord.com/oauth2/authorize?client_id=1008715802079399958&permissions=8&scope=bot%20applications.commands" title="Add the german bot">| German</a>
       </p>
-
     </div>
+  </div>
 
-    <div class="footer-center">
-      <div>
-        <p><a href="#faq">FAQ</a></p>
-      </div>
-      <div>
-        <p><a href="#features">Commands</a></p>
-      </div>
-      <div>
-        <p><a href="https://giveawaybot.net/discord">Join Support Server</a></p>
+  <p class="links">
+    <a class="link1" href="https://discord.gg/nTzWG2etMz" target="_blank">
+      <i class="fa-brands fa-discord" title="Support Discord"></i>
+    </a>
+    <a class="link2" href="https://github.com/bastian-js/giveaway-bot" target="_blank">
+      <i class="fa-brands fa-github" title="Bot Repository"></i>
+    </a>
+  </p>
+
+  <div class="container">
+    <div class="image">
+      <img class="image__img" src="./assets/cmdnewnew2.png" alt="Bricks" />
+      <div class="image__overlay image__overlay--blur">
+        <div class="image__title">
+          Start new giveaways
+        </div>
+        <p class="image__description">
+          Host giveaways with length, prize & winners
+        </p>
       </div>
     </div>
-
-    <div class="footer-right">
-
-      <p class="footer-company-about">
-        <span>About the bot</span>
-        The bot was coded by bastian.
-      </p>
-
-      <div class="footer-icons">
-
-        <img src="./assets/javascript.png" alt="">
-        <img src="./assets/python.png" alt="">
-        <img src="./assets/vue.png" alt="">
-        <img src="./assets/typescript.png" alt="">
-
-
+    <div class="image">
+      <img class="image__img" src="./assets/cmdnewnew3.png" alt="Bricks" />
+      <div class="image__overlay image__overlay--blur">
+        <div class="image__title">
+          Manage your Giveaway
+        </div>
+        <p class="image__description">
+          End/Pause/Unpause or reroll your giveaway
+        </p>
       </div>
-
     </div>
+    <div class="image">
+      <img class="image__img" src="./assets/cmdnewnew4.png" alt="Bricks" />
+      <div class="image__overlay image__overlay--blur">
+        <div class="image__title">
+          English & German Bot
+        </div>
+        <p class="image__description">Choose, if you want an <a href="https://discord.com/oauth2/authorize?client_id=959150163807584348&permissions=142400&scope=bot%20applications.commands">english</a> or a
+          <a href="https://discord.com/oauth2/authorize?client_id=1008715802079399958&permissions=8&scope=bot%20applications.commands">german bot</a></p>
+      </div>
+    </div>
+  </div>
 
-  </footer>
-  <script type="text/javascript">
-    window.addEventListener('scroll', reveal);
+<footer class="footer">
+  <p>2022 &copy; bastian#6969</p>
+</footer>
 
-    function reveal() {
-      var reveals = document.querySelectorAll('.reveal');
 
-      for (var i = 0; i < reveals.length; i++) {
 
-        var windowheight = window.innerHeight;
-        var revealtop = reveals[i].getBoundingClientRect().top;
-        var revealpoint = 150;
 
-        if (revealtop < windowheight - revealpoint) {
-          reveals[i].classList.add('active');
-        } else {
-          reveals[i].classList.remove('active');
-        }
-      }
-    }
-  </script>
-
-  <script src="script.js"></script>
 </body>
 
 </html>
